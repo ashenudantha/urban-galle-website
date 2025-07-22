@@ -95,15 +95,29 @@ const Contact = () => {
                         </div>
                         <div className="flex-1">
                           <div className="font-bold text-white text-lg">{method.title}</div>
-                          <div className="text-blue-300 font-semibold">
-                                  {method.title === 'Call Us' || method.title === 'WhatsApp' ? (
-                                    <a href={`tel:${method.value}`} className="hover:underline">{method.value}</a>
-                                  ) : method.title === 'Email Us' ? (
-                                    <a href={`mailto:${method.value}`} className="hover:underline">{method.value}</a>
-                                  ) : (
-                                    method.value
-                                  )}
-                                </div>
+                         <div className="text-blue-300 font-semibold">
+                              {method.title === 'Call Us' ? (
+                                <a href={`tel:${method.value}`} className="hover:underline">
+                                  {method.value}
+                                </a>
+                              ) : method.title === 'WhatsApp' ? (
+                                <a
+                                  href={`https://wa.me/${method.value.replace(/\D/g, '')}`}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="hover:underline"
+                                >
+                                  {method.value}
+                                </a>
+                              ) : method.title === 'Email Us' ? (
+                                <a href={`mailto:${method.value}`} className="hover:underline">
+                                  {method.value}
+                                </a>
+                              ) : (
+                                method.value
+                              )}
+                            </div>
+
 
                           <div className="text-slate-300 text-sm">{method.description}</div>
                         </div>
