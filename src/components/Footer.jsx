@@ -42,10 +42,10 @@ const Footer = () => {
               
               {/* Social Links */}
               <div className="flex space-x-4">
-                <a href="#" className="group bg-white/10 hover:bg-blue-600 p-3 rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
+                <a href="https://www.facebook.com/people/Urban-Galle-Villa/100095056632187/?_rdr" className="group bg-white/10 hover:bg-blue-600 p-3 rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
                   <Facebook size={20} className="group-hover:text-white transition-colors" />
                 </a>
-                <a href="#" className="group bg-white/10 hover:bg-gradient-to-br hover:from-purple-600 hover:to-pink-600 p-3 rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
+                <a href="https://www.instagram.com/urban.gallevilla/" className="group bg-white/10 hover:bg-gradient-to-br hover:from-purple-600 hover:to-pink-600 p-3 rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
                   <Instagram size={20} className="group-hover:text-white transition-colors" />
                 </a>
                 <a href="#" className="group bg-white/10 hover:bg-emerald-600 p-3 rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-lg">

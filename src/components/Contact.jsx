@@ -36,7 +36,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email Us',
-      value: 'ashenudantha72@gmail.com',
+      value: 'urbangallevilla@gmail.com',
       description: 'Send us your detailed inquiry',
       color: 'from-emerald-500 to-teal-500',
       bgColor: 'from-emerald-50 to-teal-50'

@@ -48,7 +48,7 @@ const About = () => {
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-emerald-600/20 rounded-3xl transform rotate-3 group-hover:rotate-6 transition-transform duration-500" />
               <img 
-                src="https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/518188394.jpg?k=f91f44c896c97c96331f836f3306712ceb73569ab6b4e3f495130913f3774176&o="
                 alt="Villa interior"
                 className="relative rounded-3xl shadow-2xl w-full h-96 object-cover transform group-hover:scale-105 transition-transform duration-500"
               />
