@@ -48,8 +48,8 @@ const Footer = () => {
                 <a href="https://www.instagram.com/urban.gallevilla/" className="group bg-white/10 hover:bg-gradient-to-br hover:from-purple-600 hover:to-pink-600 p-3 rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
                   <Instagram size={20} className="group-hover:text-white transition-colors" />
                 </a>
-                <a href="#" className="group bg-white/10 hover:bg-emerald-600 p-3 rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
-                  <Mail size={20} className="group-hover:text-white transition-colors" />
+                <a href="https://www.google.com/maps/place/Urban+Galle+Villa/@6.0557719,80.1770006,17z/data=!3m1!4b1!4m25!1m15!4m14!1m6!1m2!1s0x3ae175d1de29e489:0xa1eb1108c178469d!2sUrban+Galle+Villa,+Gingaga+Mawatha,+Galle!2m2!1d80.1795755!2d6.0557719!1m6!1m2!1s0x3ae175d1de29e489:0xa1eb1108c178469d!2sGingaga+Mawatha,+Galle+80000!2m2!1d80.1795755!2d6.0557719!3m8!1s0x3ae175d1de29e489:0xa1eb1108c178469d!5m2!4m1!1i2!8m2!3d6.0557719!4d80.1795755!16s%2Fg%2F11v3mzlpyj?entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D" className="group bg-white/10 hover:bg-emerald-600 p-3 rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
+                  <MapPin size={20} className="group-hover:text-white transition-colors" />
                 </a>
               </div>
             </div>
