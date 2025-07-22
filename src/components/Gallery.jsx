@@ -6,32 +6,32 @@ const Gallery = () => {
 
   const images = [
     {
-      url: 'https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      url: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/602007806.jpg?k=74231ce9e37fad71e3a0dae5314a4e3f6dca6d96ab129e88a38e4b0d9c818421&o=',
       title: 'Villa Exterior',
       category: 'Exterior'
     },
     {
-      url: 'https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      url: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/488063153.jpg?k=5438141c9c9a4bd17ca5700d3cffb42a2b5693c501f4ff1818ce72f5eb5ef6d1&o=',
       title: 'Living Room',
       category: 'Interior'
     },
     {
-      url: 'https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      url: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/488061491.jpg?k=f62128008944f6e7494116c4ca3d5e46c7d8dea6377c3a06b6ed680c11083bb1&o=',
       title: 'Master Bedroom',
       category: 'Bedroom'
     },
     {
-      url: 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-      title: 'Gourmet Kitchen',
+      url: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/555093077.jpg?k=85df1b4f0282b11ac474543732cd057bfee2a22a945e495d3731bdeedb40a9ca&o=',
+      title: 'Attached Bathrooms',
       category: 'Kitchen'
     },
     {
-      url: 'https://images.pexels.com/photos/261156/pexels-photo-261156.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-      title: 'Infinity Pool',
+      url: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/555092970.jpg?k=45481660b25d84f1c20840efae618d62566d00a9a80962e08787b434748eae12&o=',
+      title: 'Pool',
       category: 'Pool'
     },
     {
-      url: 'https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      url: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/484217747.jpg?k=c2d854a73e75ddbf6f5eb619b5daa43713634baf79b4a6ebc3e647d575d1bf8c&o=',
       title: 'Dining Area',
       category: 'Dining'
     }
