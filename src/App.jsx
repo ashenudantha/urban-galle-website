@@ -1,4 +1,4 @@
-import { React, useEffect , useState } from "react";
+import React, { useEffect, useState } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -14,24 +14,28 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false); // Remove loader after 2 seconds
-    }, 2000);
-
+    const timer = setTimeout(() => setLoading(false), 2500);
     return () => clearTimeout(timer);
   }, []);
-  
+
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
-      {loading ? <Loader /> : <Hero />} <About />
-      <Amenities />
-      <Gallery />
-      <Location />
-      <Reviews />
-      <Contact />
-      <Footer />
-    </div>
+    <>
+      {loading ? (
+        <Loader />
+      ) : (
+        <div className="min-h-screen bg-white">
+          <Header />
+          <Hero />
+          <About />
+          <Amenities />
+          <Gallery />
+          <Location />
+          <Reviews />
+          <Contact />
+          <Footer />
+        </div>
+      )}
+    </>
   );
 }
 
