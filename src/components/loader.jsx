@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/Loader.css";
-import background from "../images/loader.jpg";
+import bg from "../images/loader.jpg";
 import spinner from "../images/icons8-dot-50.png";
 
 const Loader = () => {
@@ -8,7 +8,7 @@ const Loader = () => {
     <div
       className="loader-wrapper"
       style={{
-        backgroundImage: `url(${background})`,
+        backgroundImage: `url(${bg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
