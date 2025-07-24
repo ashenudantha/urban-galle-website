@@ -136,7 +136,6 @@ const Location = () => {
               </div>
             </div>
 
-            {/* Interactive Map Placeholder */}
            <div className="relative group">
   <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-emerald-600/10 rounded-3xl transform rotate-2 group-hover:rotate-3 transition-transform duration-500" />
   <div className="relative bg-gradient-to-br from-slate-100 to-blue-100 rounded-3xl p-12 h-auto flex flex-col items-center justify-center shadow-2xl group-hover:shadow-3xl transition-shadow duration-500">

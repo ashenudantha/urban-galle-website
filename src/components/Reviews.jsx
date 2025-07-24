@@ -127,7 +127,6 @@ const Reviews = () => {
                   </div>
                 </div>
                 
-                {/* Hover Border Effect */}
                 <div className="absolute inset-0 rounded-3xl border-2 border-transparent group-hover:border-gradient-to-r from-blue-300 to-emerald-300 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
             ))}
