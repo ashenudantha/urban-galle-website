@@ -17,7 +17,6 @@ const About = () => {
 
   return (
     <section id="about" className="py-24 bg-gradient-to-br from-slate-50 via-white to-blue-50 relative overflow-hidden">
-      {/* Background Elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-blue-100/50 to-emerald-100/50 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2" />
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-purple-100/50 to-pink-100/50 rounded-full blur-3xl transform -translate-x-1/2 translate-y-1/2" />
       
