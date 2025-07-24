@@ -23,7 +23,6 @@ const About = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-7xl mx-auto">
-          {/* Header */}
           <div className="text-center mb-20">
             <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-100 to-emerald-100 rounded-full px-6 py-3 mb-6">
               <Sparkles className="text-blue-600" size={20} />
