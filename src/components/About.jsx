@@ -92,7 +92,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* Features Grid */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {features.map((feature, index) => (
               <div key={index} className="group relative bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-slate-200/50 hover:border-slate-300/50 overflow-hidden">
