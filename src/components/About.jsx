@@ -42,9 +42,7 @@ const About = () => {
             </p>
           </div>
 
-          {/* Main Content Grid */}
           <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
-            {/* Image with Overlay */}
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-emerald-600/20 rounded-3xl transform rotate-3 group-hover:rotate-6 transition-transform duration-500" />
               <img 
