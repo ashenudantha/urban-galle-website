@@ -56,7 +56,6 @@ const About = () => {
               </div>
             </div>
 
-            {/* Content */}
             <div className="space-y-8">
               <div>
                 <h3 className="text-4xl font-bold text-slate-800 mb-6">
