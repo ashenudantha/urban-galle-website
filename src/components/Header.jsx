@@ -47,7 +47,6 @@ const Header = () => {
             </a>
           </div>
           
-          {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
             {navItems.map((item) => (
               <a

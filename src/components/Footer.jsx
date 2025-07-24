@@ -40,7 +40,6 @@ const Footer = () => {
                 heart of Gintota.
               </p>
               
-              {/* Social Links */}
               <div className="flex space-x-4">
                 <a href="https://www.facebook.com/people/Urban-Galle-Villa/100095056632187/?_rdr" className="group bg-white/10 hover:bg-blue-600 p-3 rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
                   <Facebook size={20} className="group-hover:text-white transition-colors" />
@@ -54,7 +53,6 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Quick Links */}
             <div>
               <h4 className="text-xl font-bold mb-6 text-white">Quick Links</h4>
               <div className="space-y-4">

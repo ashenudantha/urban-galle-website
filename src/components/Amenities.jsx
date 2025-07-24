@@ -106,7 +106,6 @@ const Amenities = () => {
                     <amenity.icon className="text-white" size={28} />
                   </div>
                   
-                  {/* Floating Icon Effect */}
                   <div className={`absolute top-0 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-gradient-to-br ${amenity.color} rounded-2xl opacity-20 group-hover:animate-ping`} />
                 </div>
                 
@@ -121,7 +120,6 @@ const Amenities = () => {
                 
                 <div className={`absolute inset-0 rounded-3xl border-2 border-transparent group-hover:border-gradient-to-r ${amenity.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
                 
-                {/* Top Accent Line */}
                 <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${amenity.color} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 rounded-t-3xl`} />
               </div>
             ))}
