@@ -113,7 +113,6 @@ const About = () => {
                   <div className="text-slate-600 font-semibold">{feature.label}</div>
                 </div>
                 
-                {/* Hover Effect */}
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-emerald-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
               </div>
             ))}
