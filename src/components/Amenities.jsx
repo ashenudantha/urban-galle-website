@@ -110,7 +110,6 @@ const Amenities = () => {
                   <div className={`absolute top-0 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-gradient-to-br ${amenity.color} rounded-2xl opacity-20 group-hover:animate-ping`} />
                 </div>
                 
-                {/* Content */}
                 <div className="relative z-10 text-center">
                   <h3 className="text-xl font-bold text-slate-800 mb-3 group-hover:text-slate-900 transition-colors duration-300">
                     {amenity.title}
@@ -128,7 +127,6 @@ const Amenities = () => {
             ))}
           </div>
 
-          {/* Bottom CTA */}
           <div className="text-center mt-16">
             
           </div>

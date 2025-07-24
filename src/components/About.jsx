@@ -76,7 +76,6 @@ const About = () => {
                 </p>
               </div>
 
-              {/* Highlights */}
               <div className="grid gap-4">
                 {highlights.map((highlight, index) => (
                   <div key={index} className="flex items-center space-x-4 p-4 bg-white/70 backdrop-blur-sm rounded-2xl border border-slate-200/50 hover:shadow-lg transition-all duration-300">
