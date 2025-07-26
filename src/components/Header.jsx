@@ -32,20 +32,25 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
-            <div className={`w-10 h-10 rounded-xl bg-gradient-to-br from-blue-600 to-emerald-600 flex items-center justify-center transition-all duration-300 ${
-              isScrolled ? 'shadow-lg' : ''
-            }`}>
-              <span className="text-white font-bold text-lg">UG</span>
-            </div>
-            <a href="#home">
+                <div className="flex items-center space-x-3">
+          <div className={`w-10 h-10 rounded-xl overflow-hidden transition-all duration-300 ${
+            isScrolled ? 'shadow-lg' : ''
+          }`}>
+            <img
+              src="src/images/urban villa logo.jpg"
+              alt="Urban Galle Logo"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <a href="#home">
             <h1 className={`text-xl font-bold transition-colors duration-300 ${
               isScrolled ? 'text-slate-800' : 'text-white'
             }`}>
               Urban Galle Villa
             </h1>
-            </a>
-          </div>
+          </a>
+        </div>
+
           
           <nav className="hidden lg:flex items-center space-x-8">
             {navItems.map((item) => (
