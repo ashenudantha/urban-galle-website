@@ -68,12 +68,16 @@ const Header = () => {
             ))}
             
             {/* CTA Button */}
-            <a href="#contactForm">
-            <button className="bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl" >
-              Book Now
-            </button>
-            </a>
-          </nav>
+         <a
+            href="https://www.booking.com/hotel/lk/tranquil-galle.en-gb.html?aid=311984&label=tranquil-galle-IqTZATo6JPapMxOWLYBz4QS675409915140%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-2172134575902%3Alp1009921%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YbSsBl3MCvHsD8UKUHIRFxY&sid=26f67d13d91de190fe9360204775c0fb&dest_id=-2217578&dest_type=city&dist=0&group_adults=2&hapos=1&hpos=1&no_rooms=1&req_adults=2&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1753215038&srpvid=893e8dd9cf8609a4&type=total&ucfs=1#tab-main"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl inline-block"
+          >
+            Book Now
+          </a>
+</nav>
+          
 
           {/* Mobile Menu Button */}
           <button
