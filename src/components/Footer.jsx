@@ -29,11 +29,16 @@ const Footer = () => {
             {/* Brand Section */}
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-3 mb-6">
-                <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-600 to-emerald-600 flex items-center justify-center shadow-lg">
-                  <span className="text-white font-bold text-xl">UG</span>
-                </div>
-                <h3 className="text-2xl font-bold">Urban Galle Villa</h3>
+              <div className="w-12 h-12 rounded-2xl overflow-hidden border-2 border-gray-400 shadow-lg">
+                <img
+                  src="src/images/urban villa logo.jpg"
+                  alt="Urban Galle Logo"
+                  className="w-full h-full object-cover"
+                />
               </div>
+              <h3 className="text-2xl font-bold">Urban Galle Villa</h3>
+            </div>
+
               <p className="text-slate-300 leading-relaxed mb-8 text-lg">
                 Where contemporary luxury meets Sri Lankan hospitality. Experience 
                 the perfect blend of modern comfort and coastal serenity in the 
