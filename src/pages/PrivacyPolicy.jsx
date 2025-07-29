@@ -57,10 +57,10 @@ export default function PrivacyPolicy() {
       </p>
       <address className="not-italic mb-8">
         Urban Galle Villa Ginthota<br />
-        No. 123, Gintota Road<br />
-        Gintota, Sri Lanka<br />
+        Gingaga Mawatha, Galle 80000<br />
+        <br />
         Email: <a href="mailto:urbangallevilla@gmail.com" className="text-blue-600">urbangallevilla@gmail.com</a><br />
-        Phone: +94 91 234 5678
+        Phone: 077 996 4660
       </address>
 
       <div className="mt-10">
