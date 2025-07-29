@@ -1,5 +1,8 @@
 import React from 'react';
 import { Facebook, Instagram, Mail, Phone, MapPin, Heart, ExternalLink } from 'lucide-react';
+import { Link } from "react-router-dom";
+
+
 
 const Footer = () => {
   const quickLinks = [
@@ -11,11 +14,12 @@ const Footer = () => {
   ];
 
   const legalLinks = [
-    { name: 'Privacy Policy', href: '#' },
-    { name: 'Terms of Service', href: '#' },
-    { name: 'Booking Terms', href: '#' },
-    { name: 'Cancellation Policy', href: '#' }
-  ];
+  { name: 'Privacy Policy', path: '/privacy-policy' },
+  { name: 'Terms of Service', path: '/terms-of-service' },
+  { name: 'Booking Terms', path: '/booking-terms' },
+  { name: 'Cancellation Policy', path: '/cancellation-policy' }
+];
+
 
   return (
     <footer className="bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900 text-white relative overflow-hidden">
@@ -111,16 +115,16 @@ const Footer = () => {
               
               {/* Legal Links */}
               <div className="flex flex-wrap justify-center lg:justify-end gap-6">
-                {legalLinks.map((link, index) => (
-                  <a 
-                    key={index}
-                    href={link.href} 
-                    className="text-slate-400 hover:text-white transition-colors duration-300 text-sm hover:underline"
-                  >
-                    {link.name}
-                  </a>
-                ))}
-              </div>
+              {legalLinks.map((link, index) => (
+                <Link
+                  key={index}
+                  to={link.path}
+                  className="text-slate-400 hover:text-white transition-colors duration-300 text-sm hover:underline"
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
             </div>
           </div>
         </div>
