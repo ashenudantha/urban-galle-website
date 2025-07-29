@@ -29,7 +29,7 @@ export default function PrivacyPolicy() {
       <p>You may request access, correction, or deletion of your data by contacting us.</p>
 
       <h2 className="text-2xl font-semibold mt-6">Contact</h2>
-      <p>For privacy inquiries: <a href="mailto:info@urbangallevilla.com" className="text-blue-600">info@urbangallevilla.com</a></p>
+      <p>For privacy inquiries: <a href="mailto:info@urbangallevilla.com" className="text-blue-600">urbangallevilla@gmail.com</a></p>
 
       <div className="mt-10">
         <button
