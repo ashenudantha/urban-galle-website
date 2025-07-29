@@ -38,7 +38,7 @@ export default function PrivacyPolicy() {
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">4. Cookies and Tracking Technologies</h2>
       <p>
-        Our website uses cookies and similar technologies to improve functionality, analyze traffic, and personalize your experience. You can manage your cookie preferences through your browser settings.
+       Urban Galle Villa website does not use cookies or any other tracking technologies to collect information about your visit.
       </p>
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">5. Your Rights</h2>
