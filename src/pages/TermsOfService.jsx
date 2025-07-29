@@ -1,15 +1,20 @@
-import React from "react";
+import React from 'react';
 
-function TermsOfService() {
+export default function TermsOfService() {
   return (
-    <div className="p-8 max-w-4xl mx-auto text-gray-800">
-      <h1 className="text-4xl font-bold mb-4">Terms of Service</h1>
-      <p className="mb-4">
-        These Terms of Service outline the rules and regulations for using our villa website.
-      </p>
-      {/* Add more detailed content as needed */}
-    </div>
+    <article className="p-8 max-w-4xl mx-auto text-gray-800">
+      <h1 className="text-4xl font-bold mb-6">Terms of Service</h1>
+      <p>Welcome to Urban Galle Villa Ginthota. By using our website and booking services, you agree to the following terms and conditions.</p>
+      <h2 className="text-2xl font-semibold mt-6">1. Booking and Payments</h2>
+      <p>All bookings must be confirmed via our third‑party platform. Payment policies (prepayment vs. pay on arrival) depend on the selected rate.</p>
+      <h2 className="text-2xl font-semibold mt-6">2. Guest Conduct</h2>
+      <p>Guests are expected to refrain from damage, noise disturbances, and inappropriate behavior. We reserve the right to refuse service for misconduct.</p>
+      <h2 className="text-2xl font-semibold mt-6">3. Liability</h2>
+      <p>While we strive for safety and comfort, the villa is not liable for lost belongings or injuries not caused by negligence.</p>
+      <h2 className="text-2xl font-semibold mt-6">4. Modifications</h2>
+      <p>We reserve the right to update these terms—revisions will be reflected immediately on this site.</p>
+      <h2 className="text-2xl font-semibold mt-6">Contact</h2>
+      <p>If you have questions about these terms: <a href="mailto:info@urbangallevilla.com" className="text-blue-600">info@urbangallevilla.com</a></p>
+    </article>
   );
 }
-
-export default TermsOfService;
