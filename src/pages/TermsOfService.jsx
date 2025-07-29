@@ -20,7 +20,7 @@ export default function TermsOfService() {
       <p>We reserve the right to update these terms—revisions will be reflected immediately on this site.</p>
 
       <h2 className="text-2xl font-semibold mt-6">Contact</h2>
-      <p>If you have questions about these terms: <a href="mailto:info@urbangallevilla.com" className="text-blue-600">urbangallevilla@gmail.com</a></p>
+      <p>If you have questions about these terms: <a href="mailto:urbangallevilla.com" className="text-blue-600">urbangallevilla@gmail.com</a></p>
 
       {/* Back to Home Button */}
       <div className="mt-10">
